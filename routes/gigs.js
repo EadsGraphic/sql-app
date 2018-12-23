@@ -49,7 +49,7 @@ router.post('/add', (req, res) => {
     if(!budget) {
       budget = 'Unknown';
     } else {
-      budget = `$${budget}`;
+      budget = `${budget}`;
     }
 
     // Make lowercase and remove space after comma
